@@ -1,8 +1,8 @@
-// Skeleton Screen UI
+// Skeleton Screen UI shown for 3 seconds
 setTimeout(() => {
     document.querySelectorAll('.skeleton').forEach(el => el.style.display = 'none');
     document.querySelectorAll('.hidden').forEach(el => el.style.display = 'block');
-}, 5000);
+}, 3000);
 
 
 // Function to check if page is scrolled and adjust the logo size
